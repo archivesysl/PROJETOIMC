@@ -1,29 +1,31 @@
-## Calculadora de IMC
+# Calculadora de IMC
 
-Este é um projeto simples de uma Calculadora de IMC (Índice de Massa Corporal) desenvolvida em HTML, CSS e JavaScript. O objetivo deste projeto é permitir que os usuários calculem seu IMC com base em seu peso e altura, e exibam a classificação do resultado.
+Este é um projeto simples de uma **Calculadora de IMC** (Índice de Massa Corporal) desenvolvida em **HTML**, **CSS** e **JavaScript**. O objetivo deste projeto é permitir que os usuários calculem seu IMC com base em seu peso e altura, e exibam a classificação do resultado.
 
-Funcionalidades
-Cálculo do IMC: O usuário insere seu peso e altura, e o sistema calcula o IMC automaticamente.
+## Funcionalidades
 
-Classificação do IMC: A classificação é exibida com base no valor do IMC, dividindo-o em 4 categorias:
+- **Cálculo do IMC:** O usuário insere seu peso e altura, e o sistema calcula o IMC automaticamente.
+- **Classificação do IMC:** A classificação é exibida com base no valor do IMC, dividindo-o em 4 categorias:
+  - Abaixo do peso
+  - Peso normal
+  - Sobrepeso
+  - Obesidade
+- **Feedback de erro:** Caso o usuário insira valores inválidos (como valores negativos ou zero), uma mensagem de erro será exibida.
 
--Abaixo do peso
--Peso normal
--Sobrepeso
--Obesidade
+## Como usar
 
-DETALHE: Caso o usuário insira valores inválidos (como valores negativos ou zero), uma mensagem de erro será exibida.
+### Pré-requisitos
 
-Como usar
-Pré-requisitos
 Certifique-se de ter o seguinte instalado na sua máquina:
+- **Navegador web** para abrir o arquivo HTML localmente.
 
-Navegador web para abrir o arquivo HTML localmente.
+### Passos para rodar
 
-Passos para rodar
-Clone o repositório
+1. **Clone o repositório**
 
+```bash
 git clone https://github.com/archivesysl/PROJETOIMC.git
+
 
 Abra o arquivo HTML
 Após clonar o repositório, abra o arquivo index.html em seu navegador preferido.
